@@ -10,7 +10,7 @@ public class vehiculos implements Serializable {
     
     //constructor
 
-    public vehiculos(String marca, String modelo, String color, String motor, float year) {
+    public vehiculos(String marca, String modelo, String color, String motor, double year) {
         this.marca = marca;
         this.modelo = modelo;
         this.color = color;
@@ -52,11 +52,11 @@ public class vehiculos implements Serializable {
         this.motor = motor;
     }
 
-    public Float getYear() {
+    public double getYear() {
         return year;
     }
 
-    public void setYear(Float year) {
+    public void setYear(double year) {
         this.year = year;
     }
 
